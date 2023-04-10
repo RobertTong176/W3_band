@@ -1,0 +1,33 @@
+{
+    "background.enabled": true,
+  "background.loop": false,
+  "background.useDefault": false,
+  "background.useFront": false,
+  "background.style": {
+        "content": "''",
+        "pointer-events": "none",
+        "position": "absolute",
+        "z-index": "99999",
+        "width": "70%",
+        "height": "100%",
+        "margin-left":"30%",
+        "background-position": "right",
+        "background-size": "cover",
+        "background-repeat": "no-repeat",
+        "opacity": 0.1
+    },
+  "background.customImages": [
+        "https://symbols.vn/wp-content/uploads/2021/12/Cung-tim-hieu-them-kho-anh-Anime-Mac-Bikini-dep.jpg",
+    ],
+    "folders": [
+		{
+			"path": ".."
+		}
+  ],
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+    
+    ]
+  }
+}

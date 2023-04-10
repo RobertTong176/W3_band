@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Reponsive" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <title>Reponsive</title>
+
+    <style>
+        .title{
+
+            display: none;
+        }
+        .pc, .table , .mobile{
+            text-align: center;
+            font-size: 68px;
+        }
+        /* PC (<=1024px)*/
+        @media (min-width: 1024px){
+            .pc{
+                display: block;
+            }
+        }
+        /* Table (>=740px & <1024px)*/ 
+        @media (min-width: 740px) and (max-width: 1023px) {
+            .table{
+                display: block;
+            }
+        }
+        /* Mobile (>740px)*/
+        @media ( max-width: 740px ){
+            .mobile{
+                display: block;
+            }
+        }
+</style>
+
+</head>
+<body>
+
+    <h2><div class="title pc">PC</div>
+    </h2>
+    <h2><div class="title table">Table</div>
+    </h2>
+    <h2><div class="title mobile">Mobile</div>
+    </h2>
+
+</body>
+</html>
